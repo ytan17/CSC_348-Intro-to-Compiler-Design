@@ -1,0 +1,12 @@
+PL: Ada
+
+install: GNAT GPL 2016
+1. Google search ada compiler download.
+2. Click into libre.adacore.com.
+2. In the libre web, click download section on the top navigation bar.
+3. Choose Free software or Academic Development.
+4. Click "build Your Download Package" at the bottom of the same page.
+5. On "Download GNAT GPL and SPARK GPL Editions" page, at the bottom select your matched platform. Since my system is window 10 64bits, so I choose x86 Window(32bits)(hosted on Window). And choose GNAT Ada 2016 for other section. 
+6. Then under the list of GNAT GPL 2016, select GNAT Ada 2016, then click on "gnat-gpl-2016-x86-windows-bin.exe" to download.
+6. After the download was finished, double click on the file which show on chrome download bar.
+7. The GNAT GPL2016 install window pops up, click to install use the defaul setting.

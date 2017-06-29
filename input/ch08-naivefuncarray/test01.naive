@@ -1,0 +1,12 @@
+main {
+  a := newarray (10);
+  for (i := 0 to 9) {
+    print (read (a, i));
+  }
+  for (i := 0 to 9) {
+    dummy := write (a, i, i);
+  }
+  for (i := 0 to 9) {
+    print (read (a, i));
+  }
+}

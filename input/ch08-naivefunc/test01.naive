@@ -1,0 +1,19 @@
+def factaux (n, result) {
+  if (n < 1) {
+    return result;
+  } else {
+    return factaux (n - 1, n * result);
+  }
+}
+
+def fact (n) {
+  return factaux (n, 1);
+}
+
+main {
+  i := 0;
+  while (i < 10) {
+    print (fact (i));
+    i := i + 1;
+  }
+}
